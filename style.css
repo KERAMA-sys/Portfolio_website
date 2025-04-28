@@ -1,0 +1,27 @@
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center center/cover no-repeat;
+    position: relative;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  }
+  
+  /* About Section */
+  .about h2 {
+    margin-top: 10px;
+  }
+  
+  /* Services Section */
+  .services .card {
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  .services .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Footer */
+  footer a {
+    font-size: 20px;
+  }
+  
